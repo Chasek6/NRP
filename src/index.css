@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300;1,900&family=Patrick+Hand+SC&family=Rock+Salt&family=Tiro+Telugu:ital@0;1&display=swap');
+/* LATO, PATRICK HAND SC, ROCK SALT, TIRO TELUGU, */
+
+/* Language: css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Lato', sans-serif;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* font-family: 'Patrick Hand SC', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Tiro Telugu', serif; */
